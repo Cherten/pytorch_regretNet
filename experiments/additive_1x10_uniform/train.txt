@@ -1,0 +1,685 @@
+2025-06-06 11:02:18,523:INFO:Misreport opt (train): prep: 0.0084s | gd: 0.2205s | total: 0.2291s
+2025-06-06 11:02:18,651:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0005s | regret_computation: 0.0105s | backward_pass: 0.0325s | lagrange_update: 0.0001s | total: 0.1034s
+2025-06-06 11:02:18,652:INFO:TRAIN (0) | Rev: 1.3960 | Rgt: 1.2524 | Loss: 5.6501 | Time: 0.40s
+2025-06-06 11:02:18,652:INFO:------------------------------------------------------------
+2025-06-06 11:02:18,652:INFO:TRAIN ITER 0 - DETAILED METRICS
+2025-06-06 11:02:18,652:INFO:Revenue: 1.396032 | Regret: 1.252387
+2025-06-06 11:02:18,652:INFO:Reg_Loss: 0.784236 | Lag_Loss: 6.261933 | Net_Loss: 5.650137
+2025-06-06 11:02:18,652:INFO:w_rgt_mean: 6.252387 | update_rate: 1.000000
+2025-06-06 11:02:18,652:INFO:Elapsed time: 0.40s
+2025-06-06 11:02:18,652:INFO:------------------------------------------------------------
+2025-06-06 11:02:18,652:INFO:Running validation at iter 0
+2025-06-06 11:02:18,655:INFO:Validating: 1/20 batches processed
+2025-06-06 11:02:18,669:INFO:Validating: 5/20 batches processed
+2025-06-06 11:02:18,688:INFO:Validating: 10/20 batches processed
+2025-06-06 11:02:18,706:INFO:Validating: 15/20 batches processed
+2025-06-06 11:02:18,725:INFO:Validating: 20/20 batches processed
+2025-06-06 11:02:18,726:INFO:==================================================
+2025-06-06 11:02:18,727:INFO:VALIDATION RESULTS (Iteration 0)
+2025-06-06 11:02:18,727:INFO:--------------------------------------------------
+2025-06-06 11:02:18,727:INFO:Revenue: 1.338129
+2025-06-06 11:02:18,727:INFO:Regret: 0.000000
+2025-06-06 11:02:18,727:INFO:IRP: 0.000000
+2025-06-06 11:02:18,727:INFO:==================================================
+2025-06-06 11:02:23,325:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:02:27,172:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0658s | total: 0.0661s
+2025-06-06 11:02:27,179:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:02:27,179:INFO:TRAIN (100) | Rev: 1.4625 | Rgt: 0.0020 | Loss: -1.4392 | Time: 8.93s
+2025-06-06 11:02:27,179:INFO:------------------------------------------------------------
+2025-06-06 11:02:27,179:INFO:TRAIN ITER 100 - DETAILED METRICS
+2025-06-06 11:02:27,179:INFO:Revenue: 1.462499 | Regret: 0.001959
+2025-06-06 11:02:27,179:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.023329 | Net_Loss: -1.439168
+2025-06-06 11:02:27,179:INFO:w_rgt_mean: 11.909310 | update_rate: 1.000000
+2025-06-06 11:02:27,179:INFO:Elapsed time: 8.93s
+2025-06-06 11:02:27,179:INFO:------------------------------------------------------------
+2025-06-06 11:02:31,087:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0063s
+2025-06-06 11:02:35,740:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0655s | total: 0.0657s
+2025-06-06 11:02:35,747:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0007s | regret_computation: 0.0014s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0068s
+2025-06-06 11:02:35,748:INFO:TRAIN (200) | Rev: 2.1478 | Rgt: 0.0046 | Loss: -2.0926 | Time: 17.50s
+2025-06-06 11:02:35,748:INFO:------------------------------------------------------------
+2025-06-06 11:02:35,748:INFO:TRAIN ITER 200 - DETAILED METRICS
+2025-06-06 11:02:35,748:INFO:Revenue: 2.147802 | Regret: 0.004573
+2025-06-06 11:02:35,748:INFO:Reg_Loss: 0.000010 | Lag_Loss: 0.055211 | Net_Loss: -2.092581
+2025-06-06 11:02:35,748:INFO:w_rgt_mean: 12.077198 | update_rate: 1.000000
+2025-06-06 11:02:35,748:INFO:Elapsed time: 17.50s
+2025-06-06 11:02:35,748:INFO:------------------------------------------------------------
+2025-06-06 11:02:39,577:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:02:43,481:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0650s | total: 0.0652s
+2025-06-06 11:02:43,488:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:02:43,488:INFO:TRAIN (300) | Rev: 2.6027 | Rgt: 0.0028 | Loss: -2.5668 | Time: 25.24s
+2025-06-06 11:02:43,488:INFO:------------------------------------------------------------
+2025-06-06 11:02:43,488:INFO:TRAIN ITER 300 - DETAILED METRICS
+2025-06-06 11:02:43,488:INFO:Revenue: 2.602677 | Regret: 0.002780
+2025-06-06 11:02:43,488:INFO:Reg_Loss: 0.000004 | Lag_Loss: 0.035910 | Net_Loss: -2.566763
+2025-06-06 11:02:43,488:INFO:w_rgt_mean: 12.918489 | update_rate: 1.000000
+2025-06-06 11:02:43,488:INFO:Elapsed time: 25.24s
+2025-06-06 11:02:43,488:INFO:------------------------------------------------------------
+2025-06-06 11:02:47,987:INFO:Time profiling: forward_pass: 0.0009s | misreport_forward: 0.0008s | regret_computation: 0.0016s | backward_pass: 0.0048s | lagrange_update: 0.0001s | total: 0.0090s
+2025-06-06 11:02:51,934:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0680s | total: 0.0683s
+2025-06-06 11:02:51,942:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0037s | lagrange_update: 0.0001s | total: 0.0068s
+2025-06-06 11:02:51,942:INFO:TRAIN (400) | Rev: 2.7050 | Rgt: 0.0007 | Loss: -2.6958 | Time: 33.69s
+2025-06-06 11:02:51,942:INFO:------------------------------------------------------------
+2025-06-06 11:02:51,942:INFO:TRAIN ITER 400 - DETAILED METRICS
+2025-06-06 11:02:51,942:INFO:Revenue: 2.704975 | Regret: 0.000677
+2025-06-06 11:02:51,942:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.009164 | Net_Loss: -2.695811
+2025-06-06 11:02:51,942:INFO:w_rgt_mean: 13.535092 | update_rate: 1.000000
+2025-06-06 11:02:51,942:INFO:Elapsed time: 33.69s
+2025-06-06 11:02:51,943:INFO:------------------------------------------------------------
+2025-06-06 11:02:55,807:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0011s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:03:00,074:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0810s | total: 0.0813s
+2025-06-06 11:03:00,082:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0037s | lagrange_update: 0.0001s | total: 0.0069s
+2025-06-06 11:03:00,082:INFO:TRAIN (500) | Rev: 2.7543 | Rgt: 0.0000 | Loss: -2.7540 | Time: 41.83s
+2025-06-06 11:03:00,082:INFO:------------------------------------------------------------
+2025-06-06 11:03:00,082:INFO:TRAIN ITER 500 - DETAILED METRICS
+2025-06-06 11:03:00,082:INFO:Revenue: 2.754270 | Regret: 0.000019
+2025-06-06 11:03:00,082:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.000271 | Net_Loss: -2.753999
+2025-06-06 11:03:00,082:INFO:w_rgt_mean: 14.190596 | update_rate: 1.000000
+2025-06-06 11:03:00,082:INFO:Elapsed time: 41.83s
+2025-06-06 11:03:00,082:INFO:------------------------------------------------------------
+2025-06-06 11:03:00,082:INFO:Running validation at iter 500
+2025-06-06 11:03:00,085:INFO:Validating: 1/20 batches processed
+2025-06-06 11:03:01,394:INFO:Validating: 5/20 batches processed
+2025-06-06 11:03:02,717:INFO:Validating: 10/20 batches processed
+2025-06-06 11:03:03,967:INFO:Validating: 15/20 batches processed
+2025-06-06 11:03:05,239:INFO:Validating: 20/20 batches processed
+2025-06-06 11:03:05,489:INFO:==================================================
+2025-06-06 11:03:05,489:INFO:VALIDATION RESULTS (Iteration 500)
+2025-06-06 11:03:05,489:INFO:--------------------------------------------------
+2025-06-06 11:03:05,489:INFO:Revenue: 2.522083
+2025-06-06 11:03:05,489:INFO:Regret: 0.000009
+2025-06-06 11:03:05,489:INFO:IRP: 0.000000
+2025-06-06 11:03:05,490:INFO:==================================================
+2025-06-06 11:03:09,365:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0062s
+2025-06-06 11:03:13,692:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0915s | total: 0.0919s
+2025-06-06 11:03:13,702:INFO:Time profiling: forward_pass: 0.0009s | misreport_forward: 0.0010s | regret_computation: 0.0018s | backward_pass: 0.0050s | lagrange_update: 0.0001s | total: 0.0094s
+2025-06-06 11:03:13,703:INFO:TRAIN (600) | Rev: 3.1342 | Rgt: 0.0147 | Loss: -2.9196 | Time: 55.45s
+2025-06-06 11:03:13,703:INFO:------------------------------------------------------------
+2025-06-06 11:03:13,703:INFO:TRAIN ITER 600 - DETAILED METRICS
+2025-06-06 11:03:13,703:INFO:Revenue: 3.134173 | Regret: 0.014707
+2025-06-06 11:03:13,703:INFO:Reg_Loss: 0.000108 | Lag_Loss: 0.214460 | Net_Loss: -2.919605
+2025-06-06 11:03:13,703:INFO:w_rgt_mean: 14.597155 | update_rate: 1.000000
+2025-06-06 11:03:13,703:INFO:Elapsed time: 55.45s
+2025-06-06 11:03:13,703:INFO:------------------------------------------------------------
+2025-06-06 11:03:17,852:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:03:21,731:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0712s | total: 0.0715s
+2025-06-06 11:03:21,744:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0014s | regret_computation: 0.0025s | backward_pass: 0.0057s | lagrange_update: 0.0001s | total: 0.0115s
+2025-06-06 11:03:21,744:INFO:TRAIN (700) | Rev: 3.1128 | Rgt: 0.0116 | Loss: -2.9374 | Time: 63.50s
+2025-06-06 11:03:21,744:INFO:------------------------------------------------------------
+2025-06-06 11:03:21,744:INFO:TRAIN ITER 700 - DETAILED METRICS
+2025-06-06 11:03:21,744:INFO:Revenue: 3.112753 | Regret: 0.011646
+2025-06-06 11:03:21,744:INFO:Reg_Loss: 0.000068 | Lag_Loss: 0.175302 | Net_Loss: -2.937384
+2025-06-06 11:03:21,744:INFO:w_rgt_mean: 15.063936 | update_rate: 1.000000
+2025-06-06 11:03:21,744:INFO:Elapsed time: 63.50s
+2025-06-06 11:03:21,745:INFO:------------------------------------------------------------
+2025-06-06 11:03:26,087:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0007s | regret_computation: 0.0013s | backward_pass: 0.0041s | lagrange_update: 0.0001s | total: 0.0094s
+2025-06-06 11:03:30,418:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0694s | total: 0.0696s
+2025-06-06 11:03:30,424:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:03:30,424:INFO:TRAIN (800) | Rev: 3.0702 | Rgt: 0.0024 | Loss: -3.0330 | Time: 72.18s
+2025-06-06 11:03:30,424:INFO:------------------------------------------------------------
+2025-06-06 11:03:30,425:INFO:TRAIN ITER 800 - DETAILED METRICS
+2025-06-06 11:03:30,425:INFO:Revenue: 3.070203 | Regret: 0.002389
+2025-06-06 11:03:30,425:INFO:Reg_Loss: 0.000003 | Lag_Loss: 0.037235 | Net_Loss: -3.032965
+2025-06-06 11:03:30,425:INFO:w_rgt_mean: 15.589204 | update_rate: 1.000000
+2025-06-06 11:03:30,425:INFO:Elapsed time: 72.18s
+2025-06-06 11:03:30,425:INFO:------------------------------------------------------------
+2025-06-06 11:03:34,483:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:03:38,675:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0916s | total: 0.0919s
+2025-06-06 11:03:38,683:INFO:Time profiling: forward_pass: 0.0008s | misreport_forward: 0.0006s | regret_computation: 0.0011s | backward_pass: 0.0043s | lagrange_update: 0.0001s | total: 0.0073s
+2025-06-06 11:03:38,684:INFO:TRAIN (900) | Rev: 3.1768 | Rgt: 0.0060 | Loss: -3.0815 | Time: 80.44s
+2025-06-06 11:03:38,684:INFO:------------------------------------------------------------
+2025-06-06 11:03:38,684:INFO:TRAIN ITER 900 - DETAILED METRICS
+2025-06-06 11:03:38,684:INFO:Revenue: 3.176826 | Regret: 0.005962
+2025-06-06 11:03:38,684:INFO:Reg_Loss: 0.000018 | Lag_Loss: 0.095286 | Net_Loss: -3.081523
+2025-06-06 11:03:38,684:INFO:w_rgt_mean: 15.989287 | update_rate: 1.000000
+2025-06-06 11:03:38,684:INFO:Elapsed time: 80.44s
+2025-06-06 11:03:38,684:INFO:------------------------------------------------------------
+2025-06-06 11:03:43,140:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:03:47,203:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0653s | total: 0.0656s
+2025-06-06 11:03:47,210:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0062s
+2025-06-06 11:03:47,210:INFO:TRAIN (1000) | Rev: 3.3568 | Rgt: 0.0038 | Loss: -3.2943 | Time: 88.96s
+2025-06-06 11:03:47,210:INFO:------------------------------------------------------------
+2025-06-06 11:03:47,210:INFO:TRAIN ITER 1000 - DETAILED METRICS
+2025-06-06 11:03:47,210:INFO:Revenue: 3.356764 | Regret: 0.003811
+2025-06-06 11:03:47,210:INFO:Reg_Loss: 0.000007 | Lag_Loss: 0.062439 | Net_Loss: -3.294317
+2025-06-06 11:03:47,210:INFO:w_rgt_mean: 16.389074 | update_rate: 1.000000
+2025-06-06 11:03:47,210:INFO:Elapsed time: 88.96s
+2025-06-06 11:03:47,211:INFO:------------------------------------------------------------
+2025-06-06 11:03:47,215:INFO:Model saved to experiments/additive_1x10_uniform/model-1000.pt
+2025-06-06 11:03:47,215:INFO:Running validation at iter 1000
+2025-06-06 11:03:47,217:INFO:Validating: 1/20 batches processed
+2025-06-06 11:03:48,254:INFO:Validating: 5/20 batches processed
+2025-06-06 11:03:49,531:INFO:Validating: 10/20 batches processed
+2025-06-06 11:03:50,797:INFO:Validating: 15/20 batches processed
+2025-06-06 11:03:52,388:INFO:Validating: 20/20 batches processed
+2025-06-06 11:03:52,686:INFO:==================================================
+2025-06-06 11:03:52,686:INFO:VALIDATION RESULTS (Iteration 1000)
+2025-06-06 11:03:52,686:INFO:--------------------------------------------------
+2025-06-06 11:03:52,686:INFO:Revenue: 3.292006
+2025-06-06 11:03:52,686:INFO:Regret: 0.001266
+2025-06-06 11:03:52,687:INFO:IRP: 0.000000
+2025-06-06 11:03:52,687:INFO:==================================================
+2025-06-06 11:03:57,023:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0011s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0064s
+2025-06-06 11:04:00,885:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0673s | total: 0.0675s
+2025-06-06 11:04:00,892:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:04:00,892:INFO:TRAIN (1100) | Rev: 3.2990 | Rgt: 0.0024 | Loss: -3.2594 | Time: 102.64s
+2025-06-06 11:04:00,892:INFO:------------------------------------------------------------
+2025-06-06 11:04:00,892:INFO:TRAIN ITER 1100 - DETAILED METRICS
+2025-06-06 11:04:00,892:INFO:Revenue: 3.299046 | Regret: 0.002358
+2025-06-06 11:04:00,892:INFO:Reg_Loss: 0.000003 | Lag_Loss: 0.039652 | Net_Loss: -3.259391
+2025-06-06 11:04:00,892:INFO:w_rgt_mean: 16.817646 | update_rate: 1.000000
+2025-06-06 11:04:00,892:INFO:Elapsed time: 102.64s
+2025-06-06 11:04:00,892:INFO:------------------------------------------------------------
+2025-06-06 11:04:05,021:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0040s | lagrange_update: 0.0001s | total: 0.0073s
+2025-06-06 11:04:09,487:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0658s | total: 0.0660s
+2025-06-06 11:04:09,494:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:04:09,494:INFO:TRAIN (1200) | Rev: 3.4082 | Rgt: 0.0049 | Loss: -3.3240 | Time: 111.25s
+2025-06-06 11:04:09,494:INFO:------------------------------------------------------------
+2025-06-06 11:04:09,494:INFO:TRAIN ITER 1200 - DETAILED METRICS
+2025-06-06 11:04:09,494:INFO:Revenue: 3.408240 | Regret: 0.004890
+2025-06-06 11:04:09,494:INFO:Reg_Loss: 0.000012 | Lag_Loss: 0.084224 | Net_Loss: -3.324004
+2025-06-06 11:04:09,494:INFO:w_rgt_mean: 17.227890 | update_rate: 1.000000
+2025-06-06 11:04:09,495:INFO:Elapsed time: 111.25s
+2025-06-06 11:04:09,495:INFO:------------------------------------------------------------
+2025-06-06 11:04:13,354:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:04:17,558:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0876s | total: 0.0879s
+2025-06-06 11:04:17,567:INFO:Time profiling: forward_pass: 0.0009s | misreport_forward: 0.0009s | regret_computation: 0.0017s | backward_pass: 0.0041s | lagrange_update: 0.0001s | total: 0.0083s
+2025-06-06 11:04:17,568:INFO:TRAIN (1300) | Rev: 3.4702 | Rgt: 0.0016 | Loss: -3.4416 | Time: 119.32s
+2025-06-06 11:04:17,568:INFO:------------------------------------------------------------
+2025-06-06 11:04:17,568:INFO:TRAIN ITER 1300 - DETAILED METRICS
+2025-06-06 11:04:17,568:INFO:Revenue: 3.470179 | Regret: 0.001622
+2025-06-06 11:04:17,568:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.028620 | Net_Loss: -3.441558
+2025-06-06 11:04:17,568:INFO:w_rgt_mean: 17.645096 | update_rate: 1.000000
+2025-06-06 11:04:17,568:INFO:Elapsed time: 119.32s
+2025-06-06 11:04:17,568:INFO:------------------------------------------------------------
+2025-06-06 11:04:22,974:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:04:26,968:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0689s | total: 0.0692s
+2025-06-06 11:04:26,975:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0007s | regret_computation: 0.0013s | backward_pass: 0.0033s | lagrange_update: 0.0001s | total: 0.0066s
+2025-06-06 11:04:26,975:INFO:TRAIN (1400) | Rev: 3.4756 | Rgt: 0.0051 | Loss: -3.3840 | Time: 128.73s
+2025-06-06 11:04:26,975:INFO:------------------------------------------------------------
+2025-06-06 11:04:26,976:INFO:TRAIN ITER 1400 - DETAILED METRICS
+2025-06-06 11:04:26,976:INFO:Revenue: 3.475638 | Regret: 0.005053
+2025-06-06 11:04:26,976:INFO:Reg_Loss: 0.000013 | Lag_Loss: 0.091606 | Net_Loss: -3.384019
+2025-06-06 11:04:26,976:INFO:w_rgt_mean: 18.134268 | update_rate: 1.000000
+2025-06-06 11:04:26,976:INFO:Elapsed time: 128.73s
+2025-06-06 11:04:26,976:INFO:------------------------------------------------------------
+2025-06-06 11:04:30,980:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0006s | regret_computation: 0.0011s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:04:35,434:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0889s | total: 0.0893s
+2025-06-06 11:04:35,443:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0047s | lagrange_update: 0.0001s | total: 0.0084s
+2025-06-06 11:04:35,443:INFO:TRAIN (1500) | Rev: 3.4286 | Rgt: 0.0050 | Loss: -3.3362 | Time: 137.19s
+2025-06-06 11:04:35,443:INFO:------------------------------------------------------------
+2025-06-06 11:04:35,443:INFO:TRAIN ITER 1500 - DETAILED METRICS
+2025-06-06 11:04:35,443:INFO:Revenue: 3.428566 | Regret: 0.004964
+2025-06-06 11:04:35,443:INFO:Reg_Loss: 0.000012 | Lag_Loss: 0.092352 | Net_Loss: -3.336201
+2025-06-06 11:04:35,443:INFO:w_rgt_mean: 18.608044 | update_rate: 1.000000
+2025-06-06 11:04:35,443:INFO:Elapsed time: 137.19s
+2025-06-06 11:04:35,443:INFO:------------------------------------------------------------
+2025-06-06 11:04:35,444:INFO:Running validation at iter 1500
+2025-06-06 11:04:35,446:INFO:Validating: 1/20 batches processed
+2025-06-06 11:04:36,571:INFO:Validating: 5/20 batches processed
+2025-06-06 11:04:37,801:INFO:Validating: 10/20 batches processed
+2025-06-06 11:04:39,050:INFO:Validating: 15/20 batches processed
+2025-06-06 11:04:40,332:INFO:Validating: 20/20 batches processed
+2025-06-06 11:04:40,579:INFO:==================================================
+2025-06-06 11:04:40,579:INFO:VALIDATION RESULTS (Iteration 1500)
+2025-06-06 11:04:40,580:INFO:--------------------------------------------------
+2025-06-06 11:04:40,580:INFO:Revenue: 3.451243
+2025-06-06 11:04:40,580:INFO:Regret: 0.000404
+2025-06-06 11:04:40,580:INFO:IRP: 0.000000
+2025-06-06 11:04:40,580:INFO:==================================================
+2025-06-06 11:04:44,458:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:04:48,969:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0671s | total: 0.0674s
+2025-06-06 11:04:48,976:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0007s | regret_computation: 0.0013s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0066s
+2025-06-06 11:04:48,976:INFO:TRAIN (1600) | Rev: 3.5227 | Rgt: 0.0045 | Loss: -3.4372 | Time: 150.73s
+2025-06-06 11:04:48,977:INFO:------------------------------------------------------------
+2025-06-06 11:04:48,977:INFO:TRAIN ITER 1600 - DETAILED METRICS
+2025-06-06 11:04:48,977:INFO:Revenue: 3.522671 | Regret: 0.004478
+2025-06-06 11:04:48,977:INFO:Reg_Loss: 0.000010 | Lag_Loss: 0.085498 | Net_Loss: -3.437164
+2025-06-06 11:04:48,977:INFO:w_rgt_mean: 19.099098 | update_rate: 1.000000
+2025-06-06 11:04:48,977:INFO:Elapsed time: 150.73s
+2025-06-06 11:04:48,977:INFO:------------------------------------------------------------
+2025-06-06 11:04:52,863:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0065s
+2025-06-06 11:04:56,706:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0724s | total: 0.0727s
+2025-06-06 11:04:56,712:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:04:56,713:INFO:TRAIN (1700) | Rev: 3.5088 | Rgt: 0.0028 | Loss: -3.4533 | Time: 158.46s
+2025-06-06 11:04:56,713:INFO:------------------------------------------------------------
+2025-06-06 11:04:56,713:INFO:TRAIN ITER 1700 - DETAILED METRICS
+2025-06-06 11:04:56,713:INFO:Revenue: 3.508791 | Regret: 0.002838
+2025-06-06 11:04:56,713:INFO:Reg_Loss: 0.000004 | Lag_Loss: 0.055453 | Net_Loss: -3.453335
+2025-06-06 11:04:56,713:INFO:w_rgt_mean: 19.539707 | update_rate: 1.000000
+2025-06-06 11:04:56,713:INFO:Elapsed time: 158.46s
+2025-06-06 11:04:56,713:INFO:------------------------------------------------------------
+2025-06-06 11:05:01,033:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0007s | regret_computation: 0.0013s | backward_pass: 0.0049s | lagrange_update: 0.0001s | total: 0.0084s
+2025-06-06 11:05:05,186:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0634s | total: 0.0637s
+2025-06-06 11:05:05,194:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:05:05,194:INFO:TRAIN (1800) | Rev: 3.6827 | Rgt: 0.0019 | Loss: -3.6451 | Time: 166.95s
+2025-06-06 11:05:05,194:INFO:------------------------------------------------------------
+2025-06-06 11:05:05,194:INFO:TRAIN ITER 1800 - DETAILED METRICS
+2025-06-06 11:05:05,194:INFO:Revenue: 3.682730 | Regret: 0.001885
+2025-06-06 11:05:05,194:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.037628 | Net_Loss: -3.645100
+2025-06-06 11:05:05,194:INFO:w_rgt_mean: 19.962618 | update_rate: 1.000000
+2025-06-06 11:05:05,194:INFO:Elapsed time: 166.95s
+2025-06-06 11:05:05,194:INFO:------------------------------------------------------------
+2025-06-06 11:05:08,994:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:05:13,238:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0884s | total: 0.0888s
+2025-06-06 11:05:13,249:INFO:Time profiling: forward_pass: 0.0008s | misreport_forward: 0.0009s | regret_computation: 0.0017s | backward_pass: 0.0057s | lagrange_update: 0.0001s | total: 0.0098s
+2025-06-06 11:05:13,249:INFO:TRAIN (1900) | Rev: 3.5893 | Rgt: 0.0010 | Loss: -3.5684 | Time: 175.00s
+2025-06-06 11:05:13,249:INFO:------------------------------------------------------------
+2025-06-06 11:05:13,249:INFO:TRAIN ITER 1900 - DETAILED METRICS
+2025-06-06 11:05:13,250:INFO:Revenue: 3.589284 | Regret: 0.001026
+2025-06-06 11:05:13,250:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.020881 | Net_Loss: -3.568403
+2025-06-06 11:05:13,250:INFO:w_rgt_mean: 20.357143 | update_rate: 1.000000
+2025-06-06 11:05:13,250:INFO:Elapsed time: 175.00s
+2025-06-06 11:05:13,250:INFO:------------------------------------------------------------
+2025-06-06 11:05:17,540:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:05:21,377:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0654s | total: 0.0656s
+2025-06-06 11:05:21,384:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0004s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:05:21,384:INFO:TRAIN (2000) | Rev: 3.6348 | Rgt: 0.0002 | Loss: -3.6307 | Time: 183.14s
+2025-06-06 11:05:21,384:INFO:------------------------------------------------------------
+2025-06-06 11:05:21,384:INFO:TRAIN ITER 2000 - DETAILED METRICS
+2025-06-06 11:05:21,384:INFO:Revenue: 3.634795 | Regret: 0.000199
+2025-06-06 11:05:21,384:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.004128 | Net_Loss: -3.630667
+2025-06-06 11:05:21,384:INFO:w_rgt_mean: 20.790571 | update_rate: 1.000000
+2025-06-06 11:05:21,385:INFO:Elapsed time: 183.14s
+2025-06-06 11:05:21,385:INFO:------------------------------------------------------------
+2025-06-06 11:05:21,389:INFO:Model saved to experiments/additive_1x10_uniform/model-2000.pt
+2025-06-06 11:05:21,389:INFO:Running validation at iter 2000
+2025-06-06 11:05:21,391:INFO:Validating: 1/20 batches processed
+2025-06-06 11:05:22,422:INFO:Validating: 5/20 batches processed
+2025-06-06 11:05:23,680:INFO:Validating: 10/20 batches processed
+2025-06-06 11:05:24,935:INFO:Validating: 15/20 batches processed
+2025-06-06 11:05:26,477:INFO:Validating: 20/20 batches processed
+2025-06-06 11:05:26,774:INFO:==================================================
+2025-06-06 11:05:26,774:INFO:VALIDATION RESULTS (Iteration 2000)
+2025-06-06 11:05:26,774:INFO:--------------------------------------------------
+2025-06-06 11:05:26,774:INFO:Revenue: 3.643526
+2025-06-06 11:05:26,774:INFO:Regret: 0.000230
+2025-06-06 11:05:26,775:INFO:IRP: 0.000000
+2025-06-06 11:05:26,775:INFO:==================================================
+2025-06-06 11:05:30,976:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0034s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:05:34,965:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0660s | total: 0.0662s
+2025-06-06 11:05:34,972:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:05:34,972:INFO:TRAIN (2100) | Rev: 3.6602 | Rgt: 0.0017 | Loss: -3.6249 | Time: 196.72s
+2025-06-06 11:05:34,972:INFO:------------------------------------------------------------
+2025-06-06 11:05:34,972:INFO:TRAIN ITER 2100 - DETAILED METRICS
+2025-06-06 11:05:34,972:INFO:Revenue: 3.660196 | Regret: 0.001663
+2025-06-06 11:05:34,973:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.035318 | Net_Loss: -3.624877
+2025-06-06 11:05:34,973:INFO:w_rgt_mean: 21.245110 | update_rate: 1.000000
+2025-06-06 11:05:34,973:INFO:Elapsed time: 196.72s
+2025-06-06 11:05:34,973:INFO:------------------------------------------------------------
+2025-06-06 11:05:38,986:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0039s | lagrange_update: 0.0001s | total: 0.0072s
+2025-06-06 11:05:43,707:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0650s | total: 0.0652s
+2025-06-06 11:05:43,713:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:05:43,714:INFO:TRAIN (2200) | Rev: 3.7604 | Rgt: 0.0056 | Loss: -3.6394 | Time: 205.47s
+2025-06-06 11:05:43,714:INFO:------------------------------------------------------------
+2025-06-06 11:05:43,714:INFO:TRAIN ITER 2200 - DETAILED METRICS
+2025-06-06 11:05:43,714:INFO:Revenue: 3.760353 | Regret: 0.005588
+2025-06-06 11:05:43,714:INFO:Reg_Loss: 0.000016 | Lag_Loss: 0.120958 | Net_Loss: -3.639380
+2025-06-06 11:05:43,714:INFO:w_rgt_mean: 21.652367 | update_rate: 1.000000
+2025-06-06 11:05:43,714:INFO:Elapsed time: 205.47s
+2025-06-06 11:05:43,714:INFO:------------------------------------------------------------
+2025-06-06 11:05:47,598:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:05:51,617:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0904s | total: 0.0908s
+2025-06-06 11:05:51,626:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0047s | lagrange_update: 0.0001s | total: 0.0084s
+2025-06-06 11:05:51,627:INFO:TRAIN (2300) | Rev: 3.6204 | Rgt: 0.0010 | Loss: -3.5977 | Time: 213.38s
+2025-06-06 11:05:51,627:INFO:------------------------------------------------------------
+2025-06-06 11:05:51,627:INFO:TRAIN ITER 2300 - DETAILED METRICS
+2025-06-06 11:05:51,627:INFO:Revenue: 3.620389 | Regret: 0.001029
+2025-06-06 11:05:51,627:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.022735 | Net_Loss: -3.597653
+2025-06-06 11:05:51,627:INFO:w_rgt_mean: 22.101812 | update_rate: 1.000000
+2025-06-06 11:05:51,627:INFO:Elapsed time: 213.38s
+2025-06-06 11:05:51,627:INFO:------------------------------------------------------------
+2025-06-06 11:05:56,416:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0029s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:06:00,344:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0673s | total: 0.0676s
+2025-06-06 11:06:00,351:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:06:00,351:INFO:TRAIN (2400) | Rev: 3.6517 | Rgt: 0.0031 | Loss: -3.5815 | Time: 222.10s
+2025-06-06 11:06:00,351:INFO:------------------------------------------------------------
+2025-06-06 11:06:00,351:INFO:TRAIN ITER 2400 - DETAILED METRICS
+2025-06-06 11:06:00,351:INFO:Revenue: 3.651662 | Regret: 0.003115
+2025-06-06 11:06:00,351:INFO:Reg_Loss: 0.000005 | Lag_Loss: 0.070115 | Net_Loss: -3.581542
+2025-06-06 11:06:00,351:INFO:w_rgt_mean: 22.513193 | update_rate: 1.000000
+2025-06-06 11:06:00,351:INFO:Elapsed time: 222.10s
+2025-06-06 11:06:00,351:INFO:------------------------------------------------------------
+2025-06-06 11:06:04,336:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:06:08,940:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0648s | total: 0.0650s
+2025-06-06 11:06:08,947:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:06:08,947:INFO:TRAIN (2500) | Rev: 3.6967 | Rgt: 0.0018 | Loss: -3.6544 | Time: 230.70s
+2025-06-06 11:06:08,947:INFO:------------------------------------------------------------
+2025-06-06 11:06:08,947:INFO:TRAIN ITER 2500 - DETAILED METRICS
+2025-06-06 11:06:08,947:INFO:Revenue: 3.696702 | Regret: 0.001843
+2025-06-06 11:06:08,947:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.042289 | Net_Loss: -3.654411
+2025-06-06 11:06:08,947:INFO:w_rgt_mean: 22.950186 | update_rate: 1.000000
+2025-06-06 11:06:08,947:INFO:Elapsed time: 230.70s
+2025-06-06 11:06:08,947:INFO:------------------------------------------------------------
+2025-06-06 11:06:08,948:INFO:Running validation at iter 2500
+2025-06-06 11:06:08,949:INFO:Validating: 1/20 batches processed
+2025-06-06 11:06:09,935:INFO:Validating: 5/20 batches processed
+2025-06-06 11:06:11,302:INFO:Validating: 10/20 batches processed
+2025-06-06 11:06:12,609:INFO:Validating: 15/20 batches processed
+2025-06-06 11:06:13,910:INFO:Validating: 20/20 batches processed
+2025-06-06 11:06:14,187:INFO:==================================================
+2025-06-06 11:06:14,187:INFO:VALIDATION RESULTS (Iteration 2500)
+2025-06-06 11:06:14,187:INFO:--------------------------------------------------
+2025-06-06 11:06:14,187:INFO:Revenue: 3.693191
+2025-06-06 11:06:14,188:INFO:Regret: 0.000065
+2025-06-06 11:06:14,188:INFO:IRP: 0.000000
+2025-06-06 11:06:14,188:INFO:==================================================
+2025-06-06 11:06:18,479:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0006s | regret_computation: 0.0014s | backward_pass: 0.0045s | lagrange_update: 0.0001s | total: 0.0083s
+2025-06-06 11:06:22,913:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0664s | total: 0.0666s
+2025-06-06 11:06:22,919:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:06:22,920:INFO:TRAIN (2600) | Rev: 3.6893 | Rgt: 0.0021 | Loss: -3.6396 | Time: 244.67s
+2025-06-06 11:06:22,920:INFO:------------------------------------------------------------
+2025-06-06 11:06:22,920:INFO:TRAIN ITER 2600 - DETAILED METRICS
+2025-06-06 11:06:22,920:INFO:Revenue: 3.689318 | Regret: 0.002126
+2025-06-06 11:06:22,920:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.049715 | Net_Loss: -3.639601
+2025-06-06 11:06:22,920:INFO:w_rgt_mean: 23.387081 | update_rate: 1.000000
+2025-06-06 11:06:22,920:INFO:Elapsed time: 244.67s
+2025-06-06 11:06:22,920:INFO:------------------------------------------------------------
+2025-06-06 11:06:26,885:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0033s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:06:30,744:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0779s | total: 0.0782s
+2025-06-06 11:06:30,750:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:06:30,751:INFO:TRAIN (2700) | Rev: 3.6758 | Rgt: 0.0046 | Loss: -3.5672 | Time: 252.50s
+2025-06-06 11:06:30,751:INFO:------------------------------------------------------------
+2025-06-06 11:06:30,751:INFO:TRAIN ITER 2700 - DETAILED METRICS
+2025-06-06 11:06:30,751:INFO:Revenue: 3.675778 | Regret: 0.004557
+2025-06-06 11:06:30,751:INFO:Reg_Loss: 0.000010 | Lag_Loss: 0.108607 | Net_Loss: -3.567160
+2025-06-06 11:06:30,751:INFO:w_rgt_mean: 23.840111 | update_rate: 1.000000
+2025-06-06 11:06:30,751:INFO:Elapsed time: 252.50s
+2025-06-06 11:06:30,751:INFO:------------------------------------------------------------
+2025-06-06 11:06:35,579:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0061s
+2025-06-06 11:06:39,473:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0634s | total: 0.0636s
+2025-06-06 11:06:39,482:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0029s | lagrange_update: 0.0001s | total: 0.0056s
+2025-06-06 11:06:39,482:INFO:TRAIN (2800) | Rev: 3.7357 | Rgt: 0.0103 | Loss: -3.4862 | Time: 261.23s
+2025-06-06 11:06:39,482:INFO:------------------------------------------------------------
+2025-06-06 11:06:39,482:INFO:TRAIN ITER 2800 - DETAILED METRICS
+2025-06-06 11:06:39,482:INFO:Revenue: 3.735716 | Regret: 0.010296
+2025-06-06 11:06:39,482:INFO:Reg_Loss: 0.000053 | Lag_Loss: 0.249450 | Net_Loss: -3.486213
+2025-06-06 11:06:39,482:INFO:w_rgt_mean: 24.239262 | update_rate: 1.000000
+2025-06-06 11:06:39,482:INFO:Elapsed time: 261.23s
+2025-06-06 11:06:39,482:INFO:------------------------------------------------------------
+2025-06-06 11:06:43,269:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0010s | regret_computation: 0.0018s | backward_pass: 0.0055s | lagrange_update: 0.0001s | total: 0.0102s
+2025-06-06 11:06:47,857:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0632s | total: 0.0635s
+2025-06-06 11:06:47,865:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:06:47,865:INFO:TRAIN (2900) | Rev: 3.5380 | Rgt: 0.0002 | Loss: -3.5323 | Time: 269.62s
+2025-06-06 11:06:47,865:INFO:------------------------------------------------------------
+2025-06-06 11:06:47,865:INFO:TRAIN ITER 2900 - DETAILED METRICS
+2025-06-06 11:06:47,865:INFO:Revenue: 3.537992 | Regret: 0.000230
+2025-06-06 11:06:47,866:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.005664 | Net_Loss: -3.532328
+2025-06-06 11:06:47,866:INFO:w_rgt_mean: 24.673664 | update_rate: 1.000000
+2025-06-06 11:06:47,866:INFO:Elapsed time: 269.62s
+2025-06-06 11:06:47,866:INFO:------------------------------------------------------------
+2025-06-06 11:06:51,719:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:06:55,531:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0659s | total: 0.0662s
+2025-06-06 11:06:55,537:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0056s
+2025-06-06 11:06:55,537:INFO:TRAIN (3000) | Rev: 3.6777 | Rgt: 0.0204 | Loss: -3.1651 | Time: 277.29s
+2025-06-06 11:06:55,538:INFO:------------------------------------------------------------
+2025-06-06 11:06:55,538:INFO:TRAIN ITER 3000 - DETAILED METRICS
+2025-06-06 11:06:55,538:INFO:Revenue: 3.677721 | Regret: 0.020450
+2025-06-06 11:06:55,538:INFO:Reg_Loss: 0.000209 | Lag_Loss: 0.512456 | Net_Loss: -3.165056
+2025-06-06 11:06:55,538:INFO:w_rgt_mean: 25.079697 | update_rate: 1.000000
+2025-06-06 11:06:55,538:INFO:Elapsed time: 277.29s
+2025-06-06 11:06:55,538:INFO:------------------------------------------------------------
+2025-06-06 11:06:55,542:INFO:Model saved to experiments/additive_1x10_uniform/model-3000.pt
+2025-06-06 11:06:55,542:INFO:Running validation at iter 3000
+2025-06-06 11:06:55,544:INFO:Validating: 1/20 batches processed
+2025-06-06 11:06:56,531:INFO:Validating: 5/20 batches processed
+2025-06-06 11:06:57,877:INFO:Validating: 10/20 batches processed
+2025-06-06 11:06:59,406:INFO:Validating: 15/20 batches processed
+2025-06-06 11:07:00,926:INFO:Validating: 20/20 batches processed
+2025-06-06 11:07:01,182:INFO:==================================================
+2025-06-06 11:07:01,183:INFO:VALIDATION RESULTS (Iteration 3000)
+2025-06-06 11:07:01,183:INFO:--------------------------------------------------
+2025-06-06 11:07:01,183:INFO:Revenue: 3.769811
+2025-06-06 11:07:01,183:INFO:Regret: 0.000008
+2025-06-06 11:07:01,183:INFO:IRP: 0.000000
+2025-06-06 11:07:01,183:INFO:==================================================
+2025-06-06 11:07:05,118:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:07:09,046:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0693s | total: 0.0696s
+2025-06-06 11:07:09,053:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0013s | backward_pass: 0.0038s | lagrange_update: 0.0001s | total: 0.0071s
+2025-06-06 11:07:09,054:INFO:TRAIN (3100) | Rev: 3.6323 | Rgt: 0.0019 | Loss: -3.5844 | Time: 290.80s
+2025-06-06 11:07:09,054:INFO:------------------------------------------------------------
+2025-06-06 11:07:09,054:INFO:TRAIN ITER 3100 - DETAILED METRICS
+2025-06-06 11:07:09,054:INFO:Revenue: 3.632275 | Regret: 0.001876
+2025-06-06 11:07:09,054:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.047826 | Net_Loss: -3.584448
+2025-06-06 11:07:09,054:INFO:w_rgt_mean: 25.501989 | update_rate: 1.000000
+2025-06-06 11:07:09,054:INFO:Elapsed time: 290.80s
+2025-06-06 11:07:09,054:INFO:------------------------------------------------------------
+2025-06-06 11:07:13,543:INFO:Time profiling: forward_pass: 0.0009s | misreport_forward: 0.0009s | regret_computation: 0.0016s | backward_pass: 0.0049s | lagrange_update: 0.0001s | total: 0.0091s
+2025-06-06 11:07:17,500:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0673s | total: 0.0676s
+2025-06-06 11:07:17,507:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:07:17,507:INFO:TRAIN (3200) | Rev: 3.8663 | Rgt: 0.0002 | Loss: -3.8606 | Time: 299.26s
+2025-06-06 11:07:17,507:INFO:------------------------------------------------------------
+2025-06-06 11:07:17,507:INFO:TRAIN ITER 3200 - DETAILED METRICS
+2025-06-06 11:07:17,507:INFO:Revenue: 3.866261 | Regret: 0.000217
+2025-06-06 11:07:17,507:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.005638 | Net_Loss: -3.860623
+2025-06-06 11:07:17,507:INFO:w_rgt_mean: 25.943466 | update_rate: 1.000000
+2025-06-06 11:07:17,507:INFO:Elapsed time: 299.26s
+2025-06-06 11:07:17,507:INFO:------------------------------------------------------------
+2025-06-06 11:07:21,379:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:07:25,606:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0829s | total: 0.0832s
+2025-06-06 11:07:25,613:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0037s | lagrange_update: 0.0001s | total: 0.0069s
+2025-06-06 11:07:25,614:INFO:TRAIN (3300) | Rev: 3.8048 | Rgt: 0.0012 | Loss: -3.7723 | Time: 307.36s
+2025-06-06 11:07:25,614:INFO:------------------------------------------------------------
+2025-06-06 11:07:25,614:INFO:TRAIN ITER 3300 - DETAILED METRICS
+2025-06-06 11:07:25,614:INFO:Revenue: 3.804798 | Regret: 0.001234
+2025-06-06 11:07:25,614:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.032457 | Net_Loss: -3.772340
+2025-06-06 11:07:25,614:INFO:w_rgt_mean: 26.313362 | update_rate: 1.000000
+2025-06-06 11:07:25,614:INFO:Elapsed time: 307.36s
+2025-06-06 11:07:25,614:INFO:------------------------------------------------------------
+2025-06-06 11:07:29,827:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:07:33,681:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0715s | total: 0.0718s
+2025-06-06 11:07:33,687:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:07:33,687:INFO:TRAIN (3400) | Rev: 3.8374 | Rgt: 0.0021 | Loss: -3.7820 | Time: 315.44s
+2025-06-06 11:07:33,687:INFO:------------------------------------------------------------
+2025-06-06 11:07:33,687:INFO:TRAIN ITER 3400 - DETAILED METRICS
+2025-06-06 11:07:33,687:INFO:Revenue: 3.837425 | Regret: 0.002077
+2025-06-06 11:07:33,688:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.055439 | Net_Loss: -3.781983
+2025-06-06 11:07:33,688:INFO:w_rgt_mean: 26.690151 | update_rate: 1.000000
+2025-06-06 11:07:33,688:INFO:Elapsed time: 315.44s
+2025-06-06 11:07:33,688:INFO:------------------------------------------------------------
+2025-06-06 11:07:37,800:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0014s | backward_pass: 0.0036s | lagrange_update: 0.0001s | total: 0.0070s
+2025-06-06 11:07:42,188:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0662s | total: 0.0664s
+2025-06-06 11:07:42,194:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:07:42,194:INFO:TRAIN (3500) | Rev: 3.8784 | Rgt: 0.0002 | Loss: -3.8723 | Time: 323.95s
+2025-06-06 11:07:42,195:INFO:------------------------------------------------------------
+2025-06-06 11:07:42,195:INFO:TRAIN ITER 3500 - DETAILED METRICS
+2025-06-06 11:07:42,195:INFO:Revenue: 3.878413 | Regret: 0.000225
+2025-06-06 11:07:42,195:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.006093 | Net_Loss: -3.872320
+2025-06-06 11:07:42,195:INFO:w_rgt_mean: 27.042280 | update_rate: 1.000000
+2025-06-06 11:07:42,195:INFO:Elapsed time: 323.95s
+2025-06-06 11:07:42,195:INFO:------------------------------------------------------------
+2025-06-06 11:07:42,195:INFO:Running validation at iter 3500
+2025-06-06 11:07:42,197:INFO:Validating: 1/20 batches processed
+2025-06-06 11:07:43,183:INFO:Validating: 5/20 batches processed
+2025-06-06 11:07:44,412:INFO:Validating: 10/20 batches processed
+2025-06-06 11:07:45,654:INFO:Validating: 15/20 batches processed
+2025-06-06 11:07:46,905:INFO:Validating: 20/20 batches processed
+2025-06-06 11:07:47,159:INFO:==================================================
+2025-06-06 11:07:47,159:INFO:VALIDATION RESULTS (Iteration 3500)
+2025-06-06 11:07:47,159:INFO:--------------------------------------------------
+2025-06-06 11:07:47,159:INFO:Revenue: 3.893094
+2025-06-06 11:07:47,160:INFO:Regret: 0.000000
+2025-06-06 11:07:47,160:INFO:IRP: 0.000000
+2025-06-06 11:07:47,160:INFO:==================================================
+2025-06-06 11:07:52,185:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0038s | lagrange_update: 0.0001s | total: 0.0071s
+2025-06-06 11:07:56,402:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0701s | total: 0.0704s
+2025-06-06 11:07:56,409:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:07:56,409:INFO:TRAIN (3600) | Rev: 3.9904 | Rgt: 0.0004 | Loss: -3.9802 | Time: 338.16s
+2025-06-06 11:07:56,409:INFO:------------------------------------------------------------
+2025-06-06 11:07:56,409:INFO:TRAIN ITER 3600 - DETAILED METRICS
+2025-06-06 11:07:56,409:INFO:Revenue: 3.990378 | Regret: 0.000371
+2025-06-06 11:07:56,409:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.010166 | Net_Loss: -3.980212
+2025-06-06 11:07:56,410:INFO:w_rgt_mean: 27.389484 | update_rate: 1.000000
+2025-06-06 11:07:56,410:INFO:Elapsed time: 338.16s
+2025-06-06 11:07:56,410:INFO:------------------------------------------------------------
+2025-06-06 11:08:00,290:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0062s
+2025-06-06 11:08:04,140:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0996s | total: 0.1000s
+2025-06-06 11:08:04,149:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0007s | regret_computation: 0.0013s | backward_pass: 0.0049s | lagrange_update: 0.0001s | total: 0.0084s
+2025-06-06 11:08:04,150:INFO:TRAIN (3700) | Rev: 3.8351 | Rgt: 0.0005 | Loss: -3.8199 | Time: 345.90s
+2025-06-06 11:08:04,150:INFO:------------------------------------------------------------
+2025-06-06 11:08:04,150:INFO:TRAIN ITER 3700 - DETAILED METRICS
+2025-06-06 11:08:04,150:INFO:Revenue: 3.835052 | Regret: 0.000545
+2025-06-06 11:08:04,150:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.015123 | Net_Loss: -3.819929
+2025-06-06 11:08:04,150:INFO:w_rgt_mean: 27.766172 | update_rate: 1.000000
+2025-06-06 11:08:04,150:INFO:Elapsed time: 345.90s
+2025-06-06 11:08:04,150:INFO:------------------------------------------------------------
+2025-06-06 11:08:08,662:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0009s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0058s
+2025-06-06 11:08:12,559:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0696s | total: 0.0699s
+2025-06-06 11:08:12,565:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:08:12,566:INFO:TRAIN (3800) | Rev: 3.9288 | Rgt: 0.0005 | Loss: -3.9150 | Time: 354.32s
+2025-06-06 11:08:12,566:INFO:------------------------------------------------------------
+2025-06-06 11:08:12,566:INFO:TRAIN ITER 3800 - DETAILED METRICS
+2025-06-06 11:08:12,566:INFO:Revenue: 3.928801 | Regret: 0.000490
+2025-06-06 11:08:12,566:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.013772 | Net_Loss: -3.915029
+2025-06-06 11:08:12,566:INFO:w_rgt_mean: 28.114687 | update_rate: 1.000000
+2025-06-06 11:08:12,566:INFO:Elapsed time: 354.32s
+2025-06-06 11:08:12,566:INFO:------------------------------------------------------------
+2025-06-06 11:08:16,434:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:08:20,915:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0646s | total: 0.0649s
+2025-06-06 11:08:20,923:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:08:20,923:INFO:TRAIN (3900) | Rev: 3.6156 | Rgt: 0.0047 | Loss: -3.4833 | Time: 362.67s
+2025-06-06 11:08:20,923:INFO:------------------------------------------------------------
+2025-06-06 11:08:20,923:INFO:TRAIN ITER 3900 - DETAILED METRICS
+2025-06-06 11:08:20,923:INFO:Revenue: 3.615574 | Regret: 0.004651
+2025-06-06 11:08:20,923:INFO:Reg_Loss: 0.000011 | Lag_Loss: 0.132301 | Net_Loss: -3.483262
+2025-06-06 11:08:20,923:INFO:w_rgt_mean: 28.452108 | update_rate: 1.000000
+2025-06-06 11:08:20,923:INFO:Elapsed time: 362.67s
+2025-06-06 11:08:20,923:INFO:------------------------------------------------------------
+2025-06-06 11:08:24,747:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:08:28,675:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0657s | total: 0.0659s
+2025-06-06 11:08:28,682:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0011s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0063s
+2025-06-06 11:08:28,683:INFO:TRAIN (4000) | Rev: 3.8038 | Rgt: 0.0003 | Loss: -3.7959 | Time: 370.43s
+2025-06-06 11:08:28,683:INFO:------------------------------------------------------------
+2025-06-06 11:08:28,683:INFO:TRAIN ITER 4000 - DETAILED METRICS
+2025-06-06 11:08:28,683:INFO:Revenue: 3.803790 | Regret: 0.000275
+2025-06-06 11:08:28,683:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.007918 | Net_Loss: -3.795872
+2025-06-06 11:08:28,683:INFO:w_rgt_mean: 28.818855 | update_rate: 1.000000
+2025-06-06 11:08:28,683:INFO:Elapsed time: 370.43s
+2025-06-06 11:08:28,683:INFO:------------------------------------------------------------
+2025-06-06 11:08:28,687:INFO:Model saved to experiments/additive_1x10_uniform/model-4000.pt
+2025-06-06 11:08:28,687:INFO:Running validation at iter 4000
+2025-06-06 11:08:28,689:INFO:Validating: 1/20 batches processed
+2025-06-06 11:08:29,689:INFO:Validating: 5/20 batches processed
+2025-06-06 11:08:31,127:INFO:Validating: 10/20 batches processed
+2025-06-06 11:08:32,679:INFO:Validating: 15/20 batches processed
+2025-06-06 11:08:34,130:INFO:Validating: 20/20 batches processed
+2025-06-06 11:08:34,377:INFO:==================================================
+2025-06-06 11:08:34,377:INFO:VALIDATION RESULTS (Iteration 4000)
+2025-06-06 11:08:34,377:INFO:--------------------------------------------------
+2025-06-06 11:08:34,377:INFO:Revenue: 3.870391
+2025-06-06 11:08:34,377:INFO:Regret: 0.000000
+2025-06-06 11:08:34,378:INFO:IRP: 0.000000
+2025-06-06 11:08:34,378:INFO:==================================================
+2025-06-06 11:08:38,340:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:08:42,237:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0664s | total: 0.0667s
+2025-06-06 11:08:42,244:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:08:42,244:INFO:TRAIN (4100) | Rev: 3.8947 | Rgt: 0.0004 | Loss: -3.8838 | Time: 384.00s
+2025-06-06 11:08:42,244:INFO:------------------------------------------------------------
+2025-06-06 11:08:42,244:INFO:TRAIN ITER 4100 - DETAILED METRICS
+2025-06-06 11:08:42,244:INFO:Revenue: 3.894699 | Regret: 0.000373
+2025-06-06 11:08:42,244:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.010870 | Net_Loss: -3.883829
+2025-06-06 11:08:42,244:INFO:w_rgt_mean: 29.178389 | update_rate: 1.000000
+2025-06-06 11:08:42,244:INFO:Elapsed time: 384.00s
+2025-06-06 11:08:42,245:INFO:------------------------------------------------------------
+2025-06-06 11:08:46,771:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0012s | backward_pass: 0.0035s | lagrange_update: 0.0001s | total: 0.0067s
+2025-06-06 11:08:50,662:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0680s | total: 0.0683s
+2025-06-06 11:08:50,672:INFO:Time profiling: forward_pass: 0.0009s | misreport_forward: 0.0009s | regret_computation: 0.0017s | backward_pass: 0.0051s | lagrange_update: 0.0001s | total: 0.0095s
+2025-06-06 11:08:50,673:INFO:TRAIN (4200) | Rev: 3.6954 | Rgt: 0.0004 | Loss: -3.6827 | Time: 392.42s
+2025-06-06 11:08:50,673:INFO:------------------------------------------------------------
+2025-06-06 11:08:50,673:INFO:TRAIN ITER 4200 - DETAILED METRICS
+2025-06-06 11:08:50,673:INFO:Revenue: 3.695401 | Regret: 0.000431
+2025-06-06 11:08:50,673:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.012728 | Net_Loss: -3.682673
+2025-06-06 11:08:50,673:INFO:w_rgt_mean: 29.535725 | update_rate: 1.000000
+2025-06-06 11:08:50,673:INFO:Elapsed time: 392.42s
+2025-06-06 11:08:50,673:INFO:------------------------------------------------------------
+2025-06-06 11:08:54,478:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:08:58,877:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0819s | total: 0.0823s
+2025-06-06 11:08:58,885:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0007s | regret_computation: 0.0014s | backward_pass: 0.0037s | lagrange_update: 0.0001s | total: 0.0072s
+2025-06-06 11:08:58,885:INFO:TRAIN (4300) | Rev: 3.8347 | Rgt: 0.0063 | Loss: -3.6452 | Time: 400.64s
+2025-06-06 11:08:58,885:INFO:------------------------------------------------------------
+2025-06-06 11:08:58,885:INFO:TRAIN ITER 4300 - DETAILED METRICS
+2025-06-06 11:08:58,885:INFO:Revenue: 3.834657 | Regret: 0.006346
+2025-06-06 11:08:58,885:INFO:Reg_Loss: 0.000020 | Lag_Loss: 0.189477 | Net_Loss: -3.645161
+2025-06-06 11:08:58,886:INFO:w_rgt_mean: 29.861656 | update_rate: 1.000000
+2025-06-06 11:08:58,886:INFO:Elapsed time: 400.64s
+2025-06-06 11:08:58,886:INFO:------------------------------------------------------------
+2025-06-06 11:09:02,960:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0033s | lagrange_update: 0.0001s | total: 0.0063s
+2025-06-06 11:09:06,783:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0632s | total: 0.0634s
+2025-06-06 11:09:06,792:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0059s
+2025-06-06 11:09:06,792:INFO:TRAIN (4400) | Rev: 3.9011 | Rgt: 0.0008 | Loss: -3.8759 | Time: 408.54s
+2025-06-06 11:09:06,792:INFO:------------------------------------------------------------
+2025-06-06 11:09:06,792:INFO:TRAIN ITER 4400 - DETAILED METRICS
+2025-06-06 11:09:06,792:INFO:Revenue: 3.901061 | Regret: 0.000834
+2025-06-06 11:09:06,793:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.025186 | Net_Loss: -3.875875
+2025-06-06 11:09:06,793:INFO:w_rgt_mean: 30.184120 | update_rate: 1.000000
+2025-06-06 11:09:06,793:INFO:Elapsed time: 408.54s
+2025-06-06 11:09:06,793:INFO:------------------------------------------------------------
+2025-06-06 11:09:10,898:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0013s | backward_pass: 0.0039s | lagrange_update: 0.0001s | total: 0.0076s
+2025-06-06 11:09:15,025:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0646s | total: 0.0649s
+2025-06-06 11:09:15,031:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:09:15,031:INFO:TRAIN (4500) | Rev: 3.9667 | Rgt: 0.0000 | Loss: -3.9663 | Time: 416.78s
+2025-06-06 11:09:15,032:INFO:------------------------------------------------------------
+2025-06-06 11:09:15,032:INFO:TRAIN ITER 4500 - DETAILED METRICS
+2025-06-06 11:09:15,032:INFO:Revenue: 3.966731 | Regret: 0.000014
+2025-06-06 11:09:15,032:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.000416 | Net_Loss: -3.966315
+2025-06-06 11:09:15,032:INFO:w_rgt_mean: 30.514671 | update_rate: 1.000000
+2025-06-06 11:09:15,032:INFO:Elapsed time: 416.78s
+2025-06-06 11:09:15,032:INFO:------------------------------------------------------------
+2025-06-06 11:09:15,032:INFO:Running validation at iter 4500
+2025-06-06 11:09:15,034:INFO:Validating: 1/20 batches processed
+2025-06-06 11:09:15,999:INFO:Validating: 5/20 batches processed
+2025-06-06 11:09:17,201:INFO:Validating: 10/20 batches processed
+2025-06-06 11:09:18,416:INFO:Validating: 15/20 batches processed
+2025-06-06 11:09:19,675:INFO:Validating: 20/20 batches processed
+2025-06-06 11:09:19,923:INFO:==================================================
+2025-06-06 11:09:19,923:INFO:VALIDATION RESULTS (Iteration 4500)
+2025-06-06 11:09:19,923:INFO:--------------------------------------------------
+2025-06-06 11:09:19,923:INFO:Revenue: 3.854965
+2025-06-06 11:09:19,924:INFO:Regret: 0.000031
+2025-06-06 11:09:19,924:INFO:IRP: 0.000000
+2025-06-06 11:09:19,924:INFO:==================================================
+2025-06-06 11:09:24,133:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0039s | lagrange_update: 0.0001s | total: 0.0073s
+2025-06-06 11:09:28,192:INFO:Misreport opt (train): prep: 0.0001s | gd: 0.0707s | total: 0.0710s
+2025-06-06 11:09:28,198:INFO:Time profiling: forward_pass: 0.0006s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:09:28,199:INFO:TRAIN (4600) | Rev: 3.7449 | Rgt: 0.0002 | Loss: -3.7394 | Time: 429.95s
+2025-06-06 11:09:28,199:INFO:------------------------------------------------------------
+2025-06-06 11:09:28,199:INFO:TRAIN ITER 4600 - DETAILED METRICS
+2025-06-06 11:09:28,199:INFO:Revenue: 3.744905 | Regret: 0.000178
+2025-06-06 11:09:28,199:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.005490 | Net_Loss: -3.739416
+2025-06-06 11:09:28,199:INFO:w_rgt_mean: 30.863871 | update_rate: 1.000000
+2025-06-06 11:09:28,199:INFO:Elapsed time: 429.95s
+2025-06-06 11:09:28,199:INFO:------------------------------------------------------------
+2025-06-06 11:09:31,992:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0057s
+2025-06-06 11:09:35,986:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0779s | total: 0.0782s
+2025-06-06 11:09:35,994:INFO:Time profiling: forward_pass: 0.0007s | misreport_forward: 0.0006s | regret_computation: 0.0012s | backward_pass: 0.0038s | lagrange_update: 0.0001s | total: 0.0072s
+2025-06-06 11:09:35,995:INFO:TRAIN (4700) | Rev: 3.7048 | Rgt: 0.0001 | Loss: -3.7027 | Time: 437.75s
+2025-06-06 11:09:35,995:INFO:------------------------------------------------------------
+2025-06-06 11:09:35,995:INFO:TRAIN ITER 4700 - DETAILED METRICS
+2025-06-06 11:09:35,995:INFO:Revenue: 3.704849 | Regret: 0.000068
+2025-06-06 11:09:35,995:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.002128 | Net_Loss: -3.702720
+2025-06-06 11:09:35,995:INFO:w_rgt_mean: 31.213669 | update_rate: 1.000000
+2025-06-06 11:09:35,995:INFO:Elapsed time: 437.75s
+2025-06-06 11:09:35,995:INFO:------------------------------------------------------------
+2025-06-06 11:09:40,382:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0030s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:09:44,176:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0646s | total: 0.0649s
+2025-06-06 11:09:44,183:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:09:44,183:INFO:TRAIN (4800) | Rev: 3.8470 | Rgt: 0.0014 | Loss: -3.8013 | Time: 445.93s
+2025-06-06 11:09:44,183:INFO:------------------------------------------------------------
+2025-06-06 11:09:44,183:INFO:TRAIN ITER 4800 - DETAILED METRICS
+2025-06-06 11:09:44,183:INFO:Revenue: 3.846990 | Regret: 0.001448
+2025-06-06 11:09:44,184:INFO:Reg_Loss: 0.000001 | Lag_Loss: 0.045709 | Net_Loss: -3.801280
+2025-06-06 11:09:44,184:INFO:w_rgt_mean: 31.561121 | update_rate: 1.000000
+2025-06-06 11:09:44,184:INFO:Elapsed time: 445.93s
+2025-06-06 11:09:44,184:INFO:------------------------------------------------------------
+2025-06-06 11:09:47,938:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0011s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:09:52,446:INFO:Misreport opt (train): prep: 0.0002s | gd: 0.0676s | total: 0.0678s
+2025-06-06 11:09:52,453:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0032s | lagrange_update: 0.0001s | total: 0.0063s
+2025-06-06 11:09:52,454:INFO:TRAIN (4900) | Rev: 3.8799 | Rgt: 0.0007 | Loss: -3.8589 | Time: 454.21s
+2025-06-06 11:09:52,454:INFO:------------------------------------------------------------
+2025-06-06 11:09:52,454:INFO:TRAIN ITER 4900 - DETAILED METRICS
+2025-06-06 11:09:52,454:INFO:Revenue: 3.879855 | Regret: 0.000657
+2025-06-06 11:09:52,454:INFO:Reg_Loss: 0.000000 | Lag_Loss: 0.020941 | Net_Loss: -3.858914
+2025-06-06 11:09:52,454:INFO:w_rgt_mean: 31.876205 | update_rate: 1.000000
+2025-06-06 11:09:52,454:INFO:Elapsed time: 454.21s
+2025-06-06 11:09:52,454:INFO:------------------------------------------------------------
+2025-06-06 11:09:56,250:INFO:Time profiling: forward_pass: 0.0005s | misreport_forward: 0.0005s | regret_computation: 0.0010s | backward_pass: 0.0031s | lagrange_update: 0.0001s | total: 0.0060s
+2025-06-06 11:10:00,031:INFO:Model saved to experiments/additive_1x10_uniform/model-5000.pt

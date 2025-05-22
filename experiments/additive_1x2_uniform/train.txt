@@ -1,0 +1,93 @@
+2025-06-23 13:56:22,166:INFO:Misreport opt (train): prep: 0.0000s | gd: 0.1735s | total: 0.1746s
+2025-06-23 13:56:22,198:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0024s | regret_computation: 0.0024s | backward_pass: 0.0168s | total: 0.0240s
+2025-06-23 13:56:30,526:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0095s | regret_computation: 0.0095s | backward_pass: 0.0090s | total: 0.0205s
+2025-06-23 13:56:39,894:INFO:TRAIN (100) | Rev: 0.4143 | Rgt: 0.0022 | Loss: -0.4070 | Time: 0.16s
+2025-06-23 13:56:39,896:INFO:------------------------------------------------------------
+2025-06-23 13:56:39,896:INFO:TRAIN ITER 100 - DETAILED METRICS
+2025-06-23 13:56:39,897:INFO:Revenue: 0.414341 | Regret: 0.002214
+2025-06-23 13:56:39,897:INFO:Reg_Loss: 0.000002 | Lag_Loss: 0.007161 | Net_Loss: -0.407048
+2025-06-23 13:56:39,897:INFO:w_rgt_mean: 3.235085 | update_rate: 1.000000
+2025-06-23 13:56:39,898:INFO:Elapsed time: 0.16s
+2025-06-23 13:56:39,899:INFO:------------------------------------------------------------
+2025-06-23 13:56:40,746:INFO:Misreport opt (train): prep: 0.0010s | gd: 0.1945s | total: 0.1955s
+2025-06-23 13:56:40,768:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0037s | regret_computation: 0.0037s | backward_pass: 0.0155s | total: 0.0207s
+2025-06-23 13:56:50,073:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0086s | regret_computation: 0.0086s | backward_pass: 0.0092s | total: 0.0193s
+2025-06-23 13:56:58,852:INFO:TRAIN (200) | Rev: 0.5835 | Rgt: 0.0113 | Loss: -0.5467 | Time: 0.17s
+2025-06-23 13:56:58,853:INFO:------------------------------------------------------------
+2025-06-23 13:56:58,853:INFO:TRAIN ITER 200 - DETAILED METRICS
+2025-06-23 13:56:58,854:INFO:Revenue: 0.583535 | Regret: 0.011304
+2025-06-23 13:56:58,854:INFO:Reg_Loss: 0.000064 | Lag_Loss: 0.036596 | Net_Loss: -0.546670
+2025-06-23 13:56:58,855:INFO:w_rgt_mean: 3.237360 | update_rate: 1.000000
+2025-06-23 13:56:58,855:INFO:Elapsed time: 0.17s
+2025-06-23 13:56:58,855:INFO:------------------------------------------------------------
+2025-06-23 13:56:59,385:INFO:Running validation at iter 200
+2025-06-23 13:56:59,388:INFO:Validating: 1/20 batches processed
+2025-06-23 13:56:59,409:ERROR:Error during validation: shape '[1, 2]' is invalid for input of size 128
+2025-06-23 13:56:59,415:ERROR:Traceback (most recent call last):
+  File "C:\Users\Artyom\kal\pytorch_regretNet\trainer\trainer.py", line 651, in validate
+    mis_alloc, mis_pay = self.net(adv_var)
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\regretnet_env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\regretnet_env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\pytorch_regretNet\nets\additive_net.py", line 90, in forward
+    x_in = x.reshape(batch_size, num_agents * num_items)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: shape '[1, 2]' is invalid for input of size 128
+
+2025-06-23 13:56:59,644:INFO:Misreport opt (train): prep: 0.0000s | gd: 0.2215s | total: 0.2215s
+2025-06-23 13:56:59,668:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0012s | regret_computation: 0.0020s | backward_pass: 0.0149s | total: 0.0185s
+2025-06-23 13:57:07,670:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0118s | regret_computation: 0.0128s | backward_pass: 0.0000s | total: 0.0216s
+2025-06-23 13:57:15,558:INFO:TRAIN (300) | Rev: 0.5392 | Rgt: 0.0161 | Loss: -0.4867 | Time: 0.16s
+2025-06-23 13:57:15,561:INFO:------------------------------------------------------------
+2025-06-23 13:57:15,561:INFO:TRAIN ITER 300 - DETAILED METRICS
+2025-06-23 13:57:15,561:INFO:Revenue: 0.539242 | Regret: 0.016085
+2025-06-23 13:57:15,562:INFO:Reg_Loss: 0.000129 | Lag_Loss: 0.052198 | Net_Loss: -0.486681
+2025-06-23 13:57:15,562:INFO:w_rgt_mean: 3.245189 | update_rate: 1.000000
+2025-06-23 13:57:15,562:INFO:Elapsed time: 0.16s
+2025-06-23 13:57:15,563:INFO:------------------------------------------------------------
+2025-06-23 13:57:16,380:INFO:Misreport opt (train): prep: 0.0010s | gd: 0.1737s | total: 0.1747s
+2025-06-23 13:57:16,408:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0039s | regret_computation: 0.0039s | backward_pass: 0.0127s | total: 0.0245s
+2025-06-23 13:57:24,920:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0050s | regret_computation: 0.0050s | backward_pass: 0.0000s | total: 0.0135s
+2025-06-23 13:57:33,111:INFO:TRAIN (400) | Rev: 0.5576 | Rgt: 0.0128 | Loss: -0.5154 | Time: 0.17s
+2025-06-23 13:57:33,112:INFO:------------------------------------------------------------
+2025-06-23 13:57:33,112:INFO:TRAIN ITER 400 - DETAILED METRICS
+2025-06-23 13:57:33,113:INFO:Revenue: 0.557583 | Regret: 0.012838
+2025-06-23 13:57:33,113:INFO:Reg_Loss: 0.000082 | Lag_Loss: 0.041875 | Net_Loss: -0.515378
+2025-06-23 13:57:33,114:INFO:w_rgt_mean: 3.261904 | update_rate: 1.000000
+2025-06-23 13:57:33,114:INFO:Elapsed time: 0.17s
+2025-06-23 13:57:33,114:INFO:------------------------------------------------------------
+2025-06-23 13:57:33,645:INFO:Running validation at iter 400
+2025-06-23 13:57:33,646:INFO:Validating: 1/20 batches processed
+2025-06-23 13:57:33,648:ERROR:Error during validation: shape '[1, 2]' is invalid for input of size 128
+2025-06-23 13:57:33,650:ERROR:Traceback (most recent call last):
+  File "C:\Users\Artyom\kal\pytorch_regretNet\trainer\trainer.py", line 651, in validate
+    mis_alloc, mis_pay = self.net(adv_var)
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\regretnet_env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\regretnet_env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Artyom\kal\pytorch_regretNet\nets\additive_net.py", line 90, in forward
+    x_in = x.reshape(batch_size, num_agents * num_items)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: shape '[1, 2]' is invalid for input of size 128
+
+2025-06-23 13:57:33,855:INFO:Misreport opt (train): prep: 0.0000s | gd: 0.1994s | total: 0.1994s
+2025-06-23 13:57:33,875:INFO:Time profiling: forward_pass: 0.0010s | misreport_forward: 0.0028s | regret_computation: 0.0028s | backward_pass: 0.0028s | total: 0.0126s
+2025-06-23 13:57:41,903:INFO:Time profiling: forward_pass: 0.0000s | misreport_forward: 0.0010s | regret_computation: 0.0132s | backward_pass: 0.0085s | total: 0.0217s
+2025-06-23 13:57:49,524:INFO:TRAIN (500) | Rev: 0.5888 | Rgt: 0.0108 | Loss: -0.5530 | Time: 0.15s
+2025-06-23 13:57:49,526:INFO:------------------------------------------------------------
+2025-06-23 13:57:49,526:INFO:TRAIN ITER 500 - DETAILED METRICS
+2025-06-23 13:57:49,527:INFO:Revenue: 0.588776 | Regret: 0.010839
+2025-06-23 13:57:49,527:INFO:Reg_Loss: 0.000059 | Lag_Loss: 0.035499 | Net_Loss: -0.552967
+2025-06-23 13:57:49,528:INFO:w_rgt_mean: 3.275001 | update_rate: 1.000000
+2025-06-23 13:57:49,528:INFO:Elapsed time: 0.15s
+2025-06-23 13:57:49,528:INFO:------------------------------------------------------------
+2025-06-23 13:57:50,101:INFO:Model saved to experiments\additive_1x2_uniform\model-500.pt
+2025-06-23 13:57:50,112:INFO:Model saved to experiments\additive_1x2_uniform\model-500.pt
